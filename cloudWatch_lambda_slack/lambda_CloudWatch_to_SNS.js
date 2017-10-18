@@ -2,8 +2,7 @@ console.log('Loading function');
 
 const https = require('https');
 const url = require('url');
-const slack_url = 'https://im.tdsis.com.br/hooks/yBK69stuhh7PLDsk8/qWDJmrTbG2pqaWxkcrrdwYakb4EtpNuXhwdH5q3csmmzxqcC';
-//const slack_url = 'https://hooks.slack.com/services/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';
+const slack_url = 'Colocar Url';
 const slack_req_opts = url.parse(slack_url);
 slack_req_opts.method = 'POST';
 slack_req_opts.headers = {

@@ -6,7 +6,7 @@ const https = require('https');
 
 const url = require('url');
 
-const slack_url = 'https://im.tdsis.com.br/hooks/yBK69stuhh7PLDsk8/qWDJmrTbG2pqaWxkcrrdwYakb4EtpNuXhwdH5q3csmmzxqcC';
+const slack_url = 'Colocar Url'
 
 const slack_req_opts = url.parse(slack_url);
 
